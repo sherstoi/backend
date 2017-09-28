@@ -5,4 +5,9 @@
         http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <bean id="fileDataReader" class="com.britebill.interview.main.FileDataReader"/>
+
+    <bean id="statisticCalculator" class="com.britebill.interview.statistics.calculator.StatisticsCalculator"/>
+
+
 </beans>
