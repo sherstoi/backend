@@ -9,5 +9,8 @@
 
     <bean id="statisticsCalculator" class="com.britebill.interview.statistics.calculator.StatisticsCalculator"/>
 
+    <bean id="xmlTextStatistics" class="com.britebill.interview.statistics.writers.XmlStatisticsWriter"/>
+
+    <bean id="jsonTextStatistics" class="com.britebill.interview.statistics.writers.JsonStatisticsWriter"/>
 
 </beans>
