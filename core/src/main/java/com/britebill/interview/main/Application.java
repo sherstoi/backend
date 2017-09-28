@@ -38,7 +38,7 @@ public class Application {
         // Transform data
         TransformerData transformerData = (TransformerData) context.getBean("transformerData");
         List<String> transformedData = transformerData.transformData(data);
-        transformedData.stream().forEach(d -> System.out.println (d));
+        transformedData.forEach(System.out::println);
     }
 
 }

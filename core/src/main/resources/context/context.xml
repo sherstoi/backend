@@ -7,7 +7,7 @@
 
     <bean id="fileDataReader" class="com.britebill.interview.main.FileDataReader"/>
 
-    <bean id="statisticCalculator" class="com.britebill.interview.statistics.calculator.StatisticsCalculator"/>
+    <bean id="statisticsCalculator" class="com.britebill.interview.statistics.calculator.StatisticsCalculator"/>
 
 
 </beans>
