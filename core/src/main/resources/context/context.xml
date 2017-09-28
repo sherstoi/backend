@@ -13,4 +13,6 @@
 
     <bean id="jsonTextStatistics" class="com.britebill.interview.statistics.writers.JsonStatisticsWriter"/>
 
+    <bean id="transformerData" class="com.britebill.interview.transformers.TransformerData"/>
+
 </beans>

@@ -14,12 +14,10 @@ public class XmlStatisticsWriter implements StatisticsWriter {
         try {
             JAXBContext jaxbContext = JAXBContext.newInstance(Statistics.class);
             Marshaller jaxbMarshaller = jaxbContext.createMarshaller();
-            // output pretty printed
             jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
             jaxbMarshaller.marshal(statistics, file);
         } catch (JAXBException j) {
             j.printStackTrace();
         }
-        // TODO: Add your XML writer implementation here
     }
 }
